@@ -59,7 +59,7 @@ fieldset label {
     padding: 12px;
     font-size: 20px;
     display: inline-block;
-    width: 240px;
+    width: 240px;a
     color: black; /* Set font color to black */
 }
 
@@ -137,36 +137,37 @@ fieldset button {
 <form action = "\" method = "post">
     <fieldset>
       <div class = "form group">
-           <label for = "Enter your passenger">Enter your passenger</label>
-        <input type = "String" class ="form control" name="enter ur passenger" required ="required">
+           <label for = "passenger_count">passenger_count</label>
+        <input type = "number" class ="form control" name="passenger_count" required ="required">
       </div>
       <div class = "form group">
-        <label for = "Enter distance">Enter distance</label>
-     <input type = "number" class ="form control" name="Enter distance" required ="required">
+        <label for = "trip_distance">trip_distance</label>
+     <input type = "number" class ="form control" name="trip_distance" required ="required">
    </div>
 <div class = "form group">
-    <label for = "Enter time taken">Enter time taken</label>
- <input type = "number" class ="form control" name="enter time taken" required ="required">
+    <label for = "pick_hour	">pick_hour</label>
+ <input type = "number" class ="form control" name="pick_hour" required ="required">
 </div>
 <div class = "form group">
-    <label for = "Enter your paymnet">Enter your payment</label>
- <input type = "number" class ="form control" name="enter ur paymnet" required ="required">
+    <label for = "tot_mins_diff">tot_mins_diff</label>
+ <input type = "number" class ="form control" name="tot_mins_diff" required ="required">
 </div>
 <div class = "form group">
-    <label for = "Enter your payment">Enter your payment</label>
- <input type = "number" class ="form control" name="enter ur payment" required ="required">
+    <label for = "cash1">cash1</label>
+ <input type = "number" class ="form control" name="cash1" required ="required">
 </div>
 <div class = "form group">
-    <label for = "Enter your pick hour">Enter your pick hour</label>
- <input type = "number" class ="form control" name="enter ur pick hour" required ="required">
+    <label for = "creditcard2">creditcard2</label>
+ <input type = "number" class ="form control" name="creditcard2" required ="required">
 </div>
 <button type = "submit"> Total Fare </button>
 </div>
+
     </fieldset>
     </form>
-    </form>
-    <h2>
-        calculate uber fare {{prediction_text}}
-    </h2>
+</form>
+<h2>
+    calculate uber fare {{prediction_text}}
+</h2>
 </body>
 </html>
